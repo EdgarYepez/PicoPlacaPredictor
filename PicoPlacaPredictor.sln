@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PicoPlacaPredictor", "PicoPlacaPredictor\PicoPlacaPredictor.vbproj", "{75C5049A-5792-48C7-9988-235666BF4019}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PicoPlacaPredictorTests", "PicoPlacaPredictorTests\PicoPlacaPredictorTests.vbproj", "{AEEE9479-07E1-4F6B-BBBD-ACCD5227F2BA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PicoPlacaPredictorConsole", "PicoPlacaPredictorConsole\PicoPlacaPredictorConsole.vbproj", "{FBA96C94-EC59-48B8-942B-DAC141916E44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{75C5049A-5792-48C7-9988-235666BF4019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75C5049A-5792-48C7-9988-235666BF4019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75C5049A-5792-48C7-9988-235666BF4019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEE9479-07E1-4F6B-BBBD-ACCD5227F2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEE9479-07E1-4F6B-BBBD-ACCD5227F2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEE9479-07E1-4F6B-BBBD-ACCD5227F2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEE9479-07E1-4F6B-BBBD-ACCD5227F2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA96C94-EC59-48B8-942B-DAC141916E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA96C94-EC59-48B8-942B-DAC141916E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA96C94-EC59-48B8-942B-DAC141916E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA96C94-EC59-48B8-942B-DAC141916E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
