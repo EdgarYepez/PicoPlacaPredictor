@@ -15,7 +15,7 @@ Module Module1
                 Dim D As Date = Date.ParseExact(DateString, "dd/MM/yyyy HH:mm", Globalization.DateTimeFormatInfo.InvariantInfo)
 
                 Dim Applies As Boolean = PL.PicoPlacaApplies(D)
-                Console.WriteLine("Pico & Placa {0} apply to {1} on {2} at {3}." & vbNewLine, If(Applies, "does", "does not"), PL.ToString, D.ToLongDateString, D.ToShortTimeString)
+                Console.WriteLine("{0} is {1}restricted to circulate in Quito on {2} at {3}.", PL.ToString, If(Applies, "", "not "), D.ToLongDateString, D.ToShortTimeString)
             Catch ex As Exception
                 Console.WriteLine(ex.Message & vbNewLine)
             End Try
